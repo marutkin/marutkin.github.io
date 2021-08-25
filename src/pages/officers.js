@@ -1,6 +1,10 @@
 import React from "react";
 import { Layout, Space, BackTop } from "antd";
 
+import logan from "../assets/logan.jpg";
+import neal from "../assets/neal.jpg";
+import blackwood from "../assets/blackwood.jpg";
+
 import OfficerCard from "../components/OfficerCard";
 
 const { Content } = Layout;
@@ -13,23 +17,19 @@ const OfficersPage = () => {
           <OfficerCard
             title="Capt.Logan"
             rank="captain"
-            src={
-              "http://101airborne.ru/wp-content/uploads/2016/03/Grenadier.jpg"
-            }
+            src={logan}
             description="The commander of the 101 airborn team, the main tasks are to maintain the morale at the proper level, to support the motivation of the entire officer corps, to resolve global issues of the battalion"
           />
           <OfficerCard
             title="Lt.Neal"
             rank="lieutenant"
-            src={
-              "http://101airborne.ru/wp-content/uploads/2016/03/Field-medic.jpg"
-            }
+            src={neal}
             description="Second lieutenant of command 101 airborn, main tasks of control within personnel, training of junior officers, command of the main combat unit"
           />
           <OfficerCard
             title={"Sgt.Blackwood"}
             rank="sergeant"
-            src={"http://101airborne.ru/wp-content/uploads/2016/03/Boets-4.jpg"}
+            src={blackwood}
             description="Sergeant of command 101 airborn, the main tasks of monitoring personnel in the field, monitoring the observance of command on the ground"
           />
         </Space>
