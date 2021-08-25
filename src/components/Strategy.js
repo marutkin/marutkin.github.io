@@ -27,7 +27,7 @@ const Strategy = () => (
           avatar={
             <Avatar src={img} />
           }
-          title={<a href="https://ant.design">{title}</a>}
+          title={title}
           description={text}
         />
       </List.Item>
