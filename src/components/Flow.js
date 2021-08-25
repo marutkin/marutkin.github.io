@@ -1,6 +1,6 @@
 import React from "react";
-
 import { Steps } from "antd";
+
 const { Step } = Steps;
 
 const data = [
