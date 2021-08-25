@@ -21,6 +21,7 @@ const HeaderMenu = () => {
       src="https://upload.wikimedia.org/wikipedia/commons/9/98/US_101st_Airborne_Division_patch.svg"
     />
   );
+
   return (
     <Menu mode="horizontal" selectedKeys={[getSelectedKeys()]}>
       <Menu.Item key="/portal">
