@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, Typography, Layout } from "antd";
+import { Divider, Typography, Layout, BackTop } from "antd";
 
 import Strategy from "../components/Strategy";
 import Steps from "../components/Steps";
@@ -17,6 +17,7 @@ const StrategyPage = () => {
         <Steps />
         <Divider />
       </Content>
+      <BackTop visibilityHeight={30} />
     </Layout>
   );
 };

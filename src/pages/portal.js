@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Card, Space } from "antd";
+import { Layout, Card, BackTop, Space } from "antd";
 import { Link } from "react-router-dom";
 
 import Media from "../components/Media";
@@ -54,6 +54,7 @@ const PortalPage = () => {
           </div>
         </Space>
       </Content>
+      <BackTop visibilityHeight={30} />
     </Layout>
   );
 };
