@@ -19,13 +19,14 @@ const App = () => (
       }}
     />
     <Content>
+      <Divider />
       <Title level={4}>Strategy</Title>
       <Strategy />
       <Divider />
       <Title level={4}>Steps</Title>
       <Steps />
       <Divider />
-      <div style={{display: 'flex', justifyContent: 'center'}}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <Media />
       </div>
     </Content>
