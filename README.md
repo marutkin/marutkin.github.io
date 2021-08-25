@@ -1,3 +1,3 @@
-# 101st Airborne Strategy
+# 101 support strategy
 
-For your eyes only.
+For your eyes only!
