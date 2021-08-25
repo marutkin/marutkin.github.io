@@ -9,6 +9,10 @@ const data = [
     description: "Инициировать стратегию поддержки батальона.",
   },
   {
+    title: "Finished",
+    description: "Создать портал для офицерского состава",
+  },
+  {
     title: "In Progress",
     description: "Провести приватные беседы с личным составом.",
   },
@@ -22,12 +26,12 @@ const data = [
   },
 ];
 
-const Flow = () => (
-  <Steps progressDot current={1} direction="vertical">
+const StepsFlow = () => (
+  <Steps direction="vertical" size="small" current={2}>
     {data.map((item) => (
       <Step key={item.title} {...item} />
     ))}
   </Steps>
 );
 
-export default Flow;
+export default StepsFlow;

@@ -2,7 +2,7 @@ import React from "react";
 import { Divider, Typography, Layout } from "antd";
 
 import Strategy from "../components/Strategy";
-import Steps from "../components/Flow";
+import Steps from "../components/Steps";
 
 const { Title } = Typography;
 const { Content } = Layout;
