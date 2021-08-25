@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, Space, Typography, PageHeader, Layout } from "antd";
+import { Divider, Typography, PageHeader, Layout } from "antd";
 
 import Strategy from "./Strategy";
 import Steps from "./Flow";

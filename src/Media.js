@@ -8,14 +8,9 @@ const Media = () => {
     setIsModalVisible(true);
   };
 
-  const handleOk = () => {
-    setIsModalVisible(false);
-  };
-
   const handleCancel = () => {
     setIsModalVisible(false);
   };
-
   return (
     <>
       <Button type="primary" onClick={showModal}>
@@ -24,9 +19,9 @@ const Media = () => {
       <Modal
         title="Motivation Modal"
         visible={isModalVisible}
-        onOk={handleOk}
         onCancel={handleCancel}
         style={{display: "flex", justifyContent: 'center'}}
+        footer={null}
       >
         <iframe
           width="300"
