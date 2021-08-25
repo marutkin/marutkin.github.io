@@ -1,2 +1,3 @@
-# marutkin.github.io
-Personal github hosting
+# 101st Airborne Strategy
+
+For your eyes only.
