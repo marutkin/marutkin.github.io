@@ -30,7 +30,7 @@ const HeaderMenu = () => {
         </Link>
       </Menu.Item>
       <Menu.Item key="/strategy" icon={<SnippetsOutlined />}>
-        <Link to="/strategy">Strategy</Link>
+        <Link to="/strategy">Command</Link>
       </Menu.Item>
       <Menu.Item key="/officers" icon={<UserOutlined />}>
         <Link to="/officers">Officers</Link>

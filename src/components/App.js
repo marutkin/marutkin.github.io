@@ -20,7 +20,18 @@ const App = () => (
           <HeaderMenu />
         </Header>
         <PortalRouter />
-        <Footer style={{ textAlign: "center" }}>Rendezvous With Destiny</Footer>
+        <Footer style={{ textAlign: "center" }}>
+          Rendezvous With Destiny:{" "}
+          <a href="https://vk.com/club339106">
+            101st Airborne.{"  "}
+            <img
+              width="25px"
+              height="20px"
+              alt="btl327"
+              src="http://101airborne.ru/wp-content/themes/Airborne/favicon.ico"
+            />
+          </a>
+        </Footer>
       </Layout>
     </Router>
   </QueryClientProvider>
