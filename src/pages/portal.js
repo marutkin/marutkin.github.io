@@ -21,7 +21,7 @@ const PortalPage = () => (
             cover={
               <img
                 alt="strategy"
-                src="https://upload.wikimedia.org/wikipedia/commons/0/03/CH-47_Chinook_helicopter_flyby.jpg"
+                src="https://img5.goodfon.ru/wallpaper/nbig/c/f5/vertolioty-oruzhie-armiia.jpg"
               />
             }
           >
@@ -37,7 +37,7 @@ const PortalPage = () => (
             style={{ width: 345 }}
             hoverable
             cover={
-              <img alt="officers" src="https://i.redd.it/v62t498mf0j51.jpg" />
+              <img alt="officers" src="https://cdn10.picryl.com/photo/1998/08/28/us-army-colonel-randy-mixon-outgoing-chief-of-staff-101st-airborne-division-68897f-1024.jpg" />
             }
           >
             <Meta
