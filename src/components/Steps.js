@@ -17,7 +17,7 @@ const StepsFlow = () => {
 
   const { current, steps } = data;
   return (
-    <Steps direction="vertical" size="small" current={current} style={{ "background-color": "#fff", padding: 12, borderRadius: 6 }}>
+    <Steps direction="vertical" size="small" current={current} style={{ backgroundColor: "#fff", padding: 12, borderRadius: 6 }}>
       {steps.map((item) => (
         <Step key={item.title} {...item} />
       ))}

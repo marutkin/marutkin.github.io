@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout } from "antd";
-import { BrowserRouter as Router } from "react-router-dom";
+import { MemoryRouter  as Router } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 import PortalRouter from "../routes/router";

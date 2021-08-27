@@ -29,7 +29,7 @@ const PortalPage = () => {
               }
             >
               <Meta
-                title="Strategy page"
+                title="Command"
                 description="Основные направления развития комманды и статус текущих задач для офицерского состава"
               />
             </Card>
@@ -44,7 +44,7 @@ const PortalPage = () => {
               }
             >
               <Meta
-                title="Officers page"
+                title="Officers"
                 description="Список офицеров со списком личных задач и обязанностей"
               />
             </Card>
