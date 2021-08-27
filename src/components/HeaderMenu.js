@@ -1,15 +1,17 @@
 import React from "react";
 import { Menu } from "antd";
 import { Link, useRouteMatch } from "react-router-dom";
-import { SnippetsOutlined, UserOutlined } from "@ant-design/icons";
+import { SnippetsOutlined, UserOutlined, DatabaseOutlined } from "@ant-design/icons";
 
 const HeaderMenu = () => {
   const isStrategyPath = useRouteMatch("/strategy");
   const isOfficersPath = useRouteMatch("/officers");
+  const isWarehousePath = useRouteMatch("/warehouse");
 
   const getSelectedKeys = () => {
     if (isStrategyPath) return isStrategyPath.path;
     if (isOfficersPath) return isOfficersPath.path;
+    if (isWarehousePath) return isWarehousePath.path;
     return "/portal";
   };
 
@@ -34,6 +36,9 @@ const HeaderMenu = () => {
       </Menu.Item>
       <Menu.Item key="/officers" icon={<UserOutlined />}>
         <Link to="/officers">Officers</Link>
+      </Menu.Item>
+      <Menu.Item key="/warehouse" icon={<DatabaseOutlined />}>
+        <Link to="/warehouse">Warehouse</Link>
       </Menu.Item>
     </Menu>
   );

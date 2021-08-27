@@ -46,6 +46,21 @@ const PortalPage = () => (
             />
           </Card>
         </Link>
+
+        <Link to="/warehouse">
+          <Card
+            style={{ width: 345 }}
+            hoverable
+            cover={
+              <img alt="Warehouse" src="https://www.allencorporation.com/wp-content/uploads/2019/08/warehouse-1024x459.jpg" />
+            }
+          >
+            <Meta
+              title="Warehouse"
+              description="Список полезных статей и ресурсов"
+            />
+          </Card>
+        </Link>
       </Space>
     </Content>
     <BackTop visibilityHeight={30} />
