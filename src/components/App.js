@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import PortalRouter from "../routes/router";
 import HeaderMenu from "./HeaderMenu";
 
+import 'antd/dist/antd.css';
 import "./App.css";
 
 const { Footer, Header } = Layout;
