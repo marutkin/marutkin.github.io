@@ -12,9 +12,9 @@ import OfficerCard from "../components/OfficerCard";
 const { Content } = Layout;
 
 const DESCRIPTIONS = {
-  logan: "327th Infantry Regiment captain. Контроль офицерского состава и планированием операций.",
-  neal: "327th Infantry Regiment lieutenant. Управление подразделением в поле, локальный контроль операции.",
-  blackwood: "327th Infantry Regiment sergeant. Контроль личного состава, выполнение краткосрочных задач.",
+  logan: "327th Infantry Regiment captain. Контроль офицерского состава и планирование операций.",
+  neal: "327th Infantry Regiment lieutenant. Управление подразделением в поле, локальный контроль операций.",
+  blackwood: "327th Infantry Regiment sergeant. Контроль над личным составом, выполнение краткосрочных задач на месте.",
 };
 
 const OfficersPage = () => (

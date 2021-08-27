@@ -2,6 +2,10 @@ import React from "react";
 import { Layout, Card, BackTop, Space } from "antd";
 import { Link } from "react-router-dom";
 
+import command from "../assets/command.jpg";
+import officers from "../assets/officers.jpg";
+import warehouse from "../assets/warehouse.jpg";
+
 const { Meta } = Card;
 const { Content } = Layout;
 
@@ -18,12 +22,7 @@ const PortalPage = () => (
           <Card
             style={{ width: 345 }}
             hoverable
-            cover={
-              <img
-                alt="strategy"
-                src="https://img5.goodfon.ru/wallpaper/nbig/c/f5/vertolioty-oruzhie-armiia.jpg"
-              />
-            }
+            cover={<img alt="strategy" src={command} />}
           >
             <Meta
               title="Command"
@@ -36,9 +35,7 @@ const PortalPage = () => (
           <Card
             style={{ width: 345 }}
             hoverable
-            cover={
-              <img alt="officers" src="https://cdn10.picryl.com/photo/1998/08/28/us-army-colonel-randy-mixon-outgoing-chief-of-staff-101st-airborne-division-68897f-1024.jpg" />
-            }
+            cover={<img alt="officers" src={officers} />}
           >
             <Meta
               title="Officers"
@@ -51,9 +48,7 @@ const PortalPage = () => (
           <Card
             style={{ width: 345 }}
             hoverable
-            cover={
-              <img alt="Warehouse" src="https://www.allencorporation.com/wp-content/uploads/2019/08/warehouse-1024x459.jpg" />
-            }
+            cover={<img alt="Warehouse" src={warehouse} />}
           >
             <Meta
               title="Warehouse"
