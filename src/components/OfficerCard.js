@@ -34,7 +34,7 @@ const OfficerCard = ({ src, title, rank, description }) => {
       }
     >
       <Avatar
-        style={{ float: "left", margin: 5 }}
+        style={{ float: "left", marginRight: 18 }}
         shape="square"
         size={120}
         src={<Image src={src} />}
