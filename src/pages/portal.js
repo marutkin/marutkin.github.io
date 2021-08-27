@@ -2,8 +2,6 @@ import React from "react";
 import { Layout, Card, BackTop, Space } from "antd";
 import { Link } from "react-router-dom";
 
-import Media from "../components/Media";
-
 const { Meta } = Card;
 const { Content } = Layout;
 
@@ -48,9 +46,6 @@ const PortalPage = () => (
             />
           </Card>
         </Link>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <Media />
-        </div>
       </Space>
     </Content>
     <BackTop visibilityHeight={30} />

@@ -1,6 +1,8 @@
 import React from "react";
 import { Layout, Space, BackTop } from "antd";
 
+import Media from "../components/Media";
+
 import logan from "../assets/logan.jpg";
 import neal from "../assets/neal.jpg";
 import blackwood from "../assets/blackwood.jpg";
@@ -32,6 +34,9 @@ const OfficersPage = () => {
             src={blackwood}
             description="Sergeant of command 101 airborn, the main tasks of monitoring personnel in the field, monitoring the observance of command on the ground"
           />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Media />
+          </div>
         </Space>
       </Content>
       <BackTop visibilityHeight={30} />
